@@ -1,0 +1,32 @@
+﻿<table>
+    <thead>
+        <tr>
+            <th>Index</th>
+            <th>Cod Art.</th>
+            <th>Nombre Art.</th>
+            <th>Desc Art.</th>
+            <th>Cant Art</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="Item in Items">
+            <td>{{Item.Id}}</td>
+            <td>{{Item.Code}}</td>
+            <td>{{Item.Name}}</td>
+            <td>{{Item.Description}}</td>
+            <td>{{Item.Quantity}}</td>
+            <td><a ng-click="editItem(Item.Code)">Edit</a></td>
+            <td><a ng-click="deleteItem(Emp.Code)">Delete</a></td>
+        </tr>
+    </tbody>
+</table>
+<br />
+<a ng-click="addItem()"> Insertar Artículo </a>
+<a> Modificar Artículo </a>
+<a> Eliminar Artículo </a>
+
+
+
+<div>{{error}}</div>

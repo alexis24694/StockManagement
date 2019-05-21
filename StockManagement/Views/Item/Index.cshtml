@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h2>Index</h2>
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+<body ng-app="ApplicationModule">
+    <div>
+        <div>
+            <div>
+                <table>
+                    <tr>
+                        <td><a href="showitems"> Show Items </a></td>
+                        <td><a href="additem"> Add Item </a></td>
+                    </tr>
+                </table>
+            </div>
+            <div>
+                <div ng-view></div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+@section scripts{
+    <script type="text/javascript" src="@Url.Content("~/Scripts/angular.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/Scripts/angular-route.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/MyScripts/Module.js")"></script>
+    <script src="~/MyScripts/Services.js"></script>
+    <script type="text/javascript" src="@Url.Content("~/MyScripts/ShowItemsController.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/MyScripts/AddItemController.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/MyScripts/EditItemController.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/MyScripts/DeleteItemController.js")"></script>
+}

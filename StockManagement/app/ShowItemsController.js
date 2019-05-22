@@ -34,4 +34,8 @@
         ShareData.value = ItemId;
         $location.path("/deleteitem");
     }
+
+    $scope.rowHighilited = function(row){
+        $scope.selectedRow = row; 
+    };
 });

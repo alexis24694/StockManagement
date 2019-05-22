@@ -214,12 +214,12 @@
       <DependentUpon>ItemEDMX.edmx</DependentUpon>
       <LastGenOutput>ItemEDMX.cs</LastGenOutput>
     </Content>
-    <Content Include="MyScripts\AddItemController.js" />
-    <Content Include="MyScripts\DeleteItemController.js" />
-    <Content Include="MyScripts\EditItemController.js" />
-    <Content Include="MyScripts\Module.js" />
-    <Content Include="MyScripts\Services.js" />
-    <Content Include="MyScripts\ShowItemsController.js" />
+    <Content Include="app\AddItemController.js" />
+    <Content Include="app\DeleteItemController.js" />
+    <Content Include="app\EditItemController.js" />
+    <Content Include="app\Module.js" />
+    <Content Include="app\Services.js" />
+    <Content Include="app\ShowItemsController.js" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
     <Content Include="Scripts\angular-aria.js" />

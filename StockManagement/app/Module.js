@@ -9,7 +9,7 @@ app.factory("ShareData", function () {
  
 //Defining Routing
 app.config(['$routeProvider','$locationProvider', function ($routeProvider,$locationProvider) {
-    $routeProvider.when('/showitems',
+    $routeProvider.when('/',
     {
         templateUrl: 'Item/ShowItems',
         controller: 'ShowItemsController'

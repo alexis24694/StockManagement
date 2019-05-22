@@ -1,1 +1,11 @@
-﻿Delete
+﻿@{
+    ViewBag.Title = "Eliminar Artículo";
+}
+<h2>Eliminar Artículo</h2>
+<form>
+    <div class="form-group">
+        <label>Código</label>
+        <label for="Code">{{Item.Code}}</label>
+    </div>    
+</form>
+<input type="button" value="Enviar" class="btn btn-primary" ng-click="delete()" />

@@ -20,6 +20,7 @@
 
     $scope.save = function () {
         var Item = {
+            Id: $scope.Item.Id,
             Code: $scope.Item.Code,
             Name: $scope.Item.Name,
             Description: $scope.Item.Description,

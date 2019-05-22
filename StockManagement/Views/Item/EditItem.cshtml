@@ -1,1 +1,25 @@
-﻿Edit
+﻿@{
+    ViewBag.Title = "Modificar Artículo";
+}
+<h2>@ViewBag.Title</h2>
+<form>
+    <div class="form-group">
+        <label for="Name">Nombre</label>
+        <input type="text" class="form-control" ng-model="Item.Name" />
+    </div>
+    <div class="form-group">
+        <label for="Code">Código</label>
+        <input type="text" class="form-control" ng-model="Item.Code" />
+    </div>
+    <div class="form-group">
+        <label for="Description">Descripción</label>
+        <input type="text" class="form-control" ng-model="Item.Description" />
+    </div>
+    <div class="form-group">
+        <label for="Quantity">Cantidad actual</label>
+        <input type="text" class="form-control" ng-model="Item.Quantity" />
+    </div>
+</form>
+<input type="button" class="btn btn-primary" value="Enviar" ng-click="save()" />
+
+<div>{{error}}</div>

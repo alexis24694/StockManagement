@@ -51,6 +51,8 @@ D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\St
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\StockManagement.dll
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\StockManagement.pdb
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\Antlr3.Runtime.dll
+D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\EntityFramework.dll
+D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\EntityFramework.SqlServer.dll
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\Microsoft.AI.Agent.Intercept.dll
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\Microsoft.AI.DependencyCollector.dll
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -59,8 +61,10 @@ D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\Mi
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\Microsoft.AI.WindowsServer.dll
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\Microsoft.ApplicationInsights.dll
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\Microsoft.Owin.dll
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\Microsoft.Web.Infrastructure.dll
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\Newtonsoft.Json.dll
+D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\Owin.dll
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\System.Net.Http.Formatting.dll
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\System.Web.Helpers.dll
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\System.Web.Http.dll
@@ -72,7 +76,10 @@ D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\Sy
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\System.Web.WebPages.dll
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\System.Web.WebPages.Razor.dll
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\WebGrease.dll
+D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\EntityFramework.xml
+D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\EntityFramework.SqlServer.xml
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\Microsoft.Owin.xml
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\System.Net.Http.Formatting.xml
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\System.Web.Http.xml
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\System.Web.Http.WebHost.xml
@@ -94,10 +101,3 @@ D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\obj\De
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\obj\Debug\StockManagement.csproj.CoreCompileInputs.cache
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\obj\Debug\StockManagement.dll
 D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\obj\Debug\StockManagement.pdb
-D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\Microsoft.Owin.dll
-D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\Owin.dll
-D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\Microsoft.Owin.xml
-D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\EntityFramework.dll
-D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\EntityFramework.SqlServer.dll
-D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\EntityFramework.xml
-D:\Visual Studio Projects\StockManagement\StockManagement\StockManagement\bin\EntityFramework.SqlServer.xml

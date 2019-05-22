@@ -1,4 +1,4 @@
-﻿<table>
+﻿<table class="table">
     <thead>
         <tr>
             <th>Index</th>
@@ -11,21 +11,22 @@
         </tr>
     </thead>
     <tbody>
-        <tr ng-repeat="Item in Items">
+        <tr ng-repeat="Item in Items"
+            ng-init="itemIndex=Item.Id"
+            ng-click="rowHighilited(itemIndex)"
+            ng-class="itemIndex==selectedRow?'active':''">
             <td>{{Item.Id}}</td>
             <td>{{Item.Code}}</td>
             <td>{{Item.Name}}</td>
             <td>{{Item.Description}}</td>
             <td>{{Item.Quantity}}</td>
-            <td><a ng-click="editItem(Item.Code)">Edit</a></td>
-            <td><a ng-click="deleteItem(Emp.Code)">Delete</a></td>
         </tr>
     </tbody>
 </table>
 <br />
-<a ng-click="addItem()"> Insertar Artículo </a>
-<a> Modificar Artículo </a>
-<a> Eliminar Artículo </a>
+<input type="button" value="Insertar Artículo" class="btn btn-primary" ng-click="addItem()">
+<input type="button" value="Modificar Artículo" class="btn btn-primary" ng-click="editItem(selectedRow)">
+<input type="button" value="Eliminar Artículo" class="btn btn-primary" ng-click="deleteItem(selectedRow)">
 
 
 

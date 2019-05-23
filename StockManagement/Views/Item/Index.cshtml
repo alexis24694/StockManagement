@@ -3,8 +3,6 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-
-<h2>@ViewBag.Title</h2>
 <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
 
 <body ng-app="ApplicationModule">
@@ -22,10 +20,10 @@
 @section scripts{
     <script type="text/javascript" src="@Url.Content("~/Scripts/angular.js")"></script>
     <script type="text/javascript" src="@Url.Content("~/Scripts/angular-route.min.js")"></script>
-    <script type="text/javascript" src="@Url.Content("~/app/Module.js")"></script>
-    <script src="~/app/Services.js"></script>
-    <script type="text/javascript" src="@Url.Content("~/app/ShowItemsController.js")"></script>
-    <script type="text/javascript" src="@Url.Content("~/app/AddItemController.js")"></script>
-    <script type="text/javascript" src="@Url.Content("~/app/EditItemController.js")"></script>
-    <script type="text/javascript" src="@Url.Content("~/app/DeleteItemController.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/app/app.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/app/services/services.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/app/controllers/showItemsController.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/app/controllers/addItemController.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/app/controllers/editItemController.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/app/controllers/deleteItemController.js")"></script>
 }
